@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bhushith U Amin — Software Engineer</title>
+<meta name="description" content="Bhushith U Amin — Software Engineer, Java Full Stack Developer. Portfolio of backend engineering and full-stack projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- noise / grain overlay -->
+<div class="grain"></div>
+
+<!-- progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">B.U.A</a>
+    <nav class="nav-links">
+      <a href="#about"><span class="num">01</span>About</a>
+      <a href="#skills"><span class="num">02</span>Skills</a>
+      <a href="#work"><span class="num">03</span>Work</a>
+      <a href="#experience"><span class="num">04</span>Experience</a>
+      <a href="#philosophy"><span class="num">05</span>Philosophy</a>
+      <a href="#contact"><span class="num">06</span>Contact</a>
+    </nav>
+    <div class="nav-meta">
+      <span class="city">UDP</span>
+      <span class="clock" id="clock">00:00</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"><span class="num">01</span>About</a>
+  <a href="#skills"><span class="num">02</span>Skills</a>
+  <a href="#work"><span class="num">03</span>Work</a>
+  <a href="#experience"><span class="num">04</span>Experience</a>
+  <a href="#philosophy"><span class="num">05</span>Philosophy</a>
+  <a href="#contact"><span class="num">06</span>Contact</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-top">
+      <span class="eyebrow"><span class="rule"></span>SOFTWARE ENGINEER · PORTFOLIO</span>
+    </div>
+
+    <h1 class="hero-name">
+      <span class="line line-1">BHUSHITH</span>
+      <span class="line line-2">U AMIN</span>
+    </h1>
+
+    <div class="hero-vert">PORTFOLIO / 2026</div>
+
+    <div class="hero-grid">
+      <div class="hero-left">
+        <span class="micro-label"><span class="dash">↳</span> CURRENTLY</span>
+        <p class="hero-statement">
+          Building scalable backends with <span class="accent">Java + Spring Boot</span> and crafting interfaces with <span class="accent">React</span>. Final-year engineering student based in Mangalore, India.
+        </p>
+      </div>
+      <div class="hero-mid">
+        <span class="micro-label"><span class="dash">↳</span> SPECIALISATION</span>
+        <ul class="spec-list">
+          <li>Backend Engineering</li>
+          <li>REST APIs · Databases</li>
+          <li>Full Stack Development</li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <a href="#work" class="btn btn-primary">View Work <span class="arrow">↓</span></a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+        <span class="avail-vert">AVAILABLE FOR HIRE</span>
+      </div>
+    </div>
+
+    <div class="hero-bottom">
+      <span>01 / INDEX</span>
+      <span class="scroll-cue">SCROLL TO EXPLORE <span class="bounce">↓</span></span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>JAVA</span><span class="dot">◆</span>
+      <span>SPRING BOOT</span><span class="dot">◆</span>
+      <span>REACT.JS</span><span class="dot">◆</span>
+      <span>MYSQL</span><span class="dot">◆</span>
+      <span>REST APIs</span><span class="dot">◆</span>
+      <span>HIBERNATE</span><span class="dot">◆</span>
+      <span>JAVA</span><span class="dot">◆</span>
+      <span>SPRING BOOT</span><span class="dot">◆</span>
+      <span>REACT.JS</span><span class="dot">◆</span>
+      <span>MYSQL</span><span class="dot">◆</span>
+      <span>REST APIs</span><span class="dot">◆</span>
+      <span>HIBERNATE</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-head">
+      <span class="section-num">01 <span class="section-rule"></span></span>
+      <span class="section-label">ABOUT</span>
+    </div>
+    <h2 class="section-title">Final-year engineer, <span class="muted">backend-leaning.</span></h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a final-year Computer Science Engineering student at NMAM Institute of Technology, currently maintaining an 8.52 CGPA. My work centers on Java and Spring Boot on the backend, paired with React on the front end — building REST APIs, designing database schemas, and shipping features end to end. I care about systems that are scalable, well-structured, and built to last, and I'm steadily expanding into cloud technologies.
+      </p>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">8.52</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Projects Shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Months — Internship</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section-head">
+      <span class="section-num">02 <span class="section-rule"></span></span>
+      <span class="section-label">STACK</span>
+    </div>
+    <div class="section-title-row">
+      <h2 class="section-title">Technical <span class="muted">arsenal.</span></h2>
+      <p class="section-sub">// tools I reach for when building systems that need to last.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-index">01</span>
+        <h3>Languages</h3>
+        <ul><li>Java</li><li>C</li><li>JavaScript</li><li>SQL</li></ul>
+      </div>
+      <div class="skill-card">
+        <span class="skill-index">02</span>
+        <h3>Backend</h3>
+        <ul><li>Spring Boot</li><li>REST APIs</li><li>JPA / Hibernate</li></ul>
+      </div>
+      <div class="skill-card">
+        <span class="skill-index">03</span>
+        <h3>Frontend</h3>
+        <ul><li>React.js</li><li>HTML / CSS</li><li>Bootstrap</li></ul>
+      </div>
+      <div class="skill-card">
+        <span class="skill-index">04</span>
+        <h3>Database</h3>
+        <ul><li>MySQL</li></ul>
+      </div>
+      <div class="skill-card">
+        <span class="skill-index">05</span>
+        <h3>Tools</h3>
+        <ul><li>Git / GitHub</li><li>Postman</li><li>STS 4 / VS Code</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section work" id="work">
+    <div class="section-head">
+      <span class="section-num">03 <span class="section-rule"></span></span>
+      <span class="section-label">SELECTED WORK</span>
+    </div>
+    <div class="section-title-row">
+      <h2 class="section-title">Things I've <span class="muted">built.</span></h2>
+      <span class="proj-count">(03) projects</span>
+    </div>
+
+    <!-- Project 01 -->
+    <article class="project">
+      <div class="project-banner banner-pet">
+        <span class="banner-tag">01 · PET ADOPTION PLATFORM</span>
+        <span class="banner-arrow">↗</span>
+      </div>
+      <div class="project-body">
+        <span class="project-eyebrow">01 / FEATURED</span>
+        <h3 class="project-title">Mangalore Pet Hub</h3>
+        <p class="project-desc">
+          A full-stack pet adoption platform connecting pets with caring homes. Implemented REST APIs, CRUD operations, JPA repositories and the service layer. Designed a clean adoption workflow with search, filtering and listing management.
+        </p>
+        <ul class="project-points">
+          <li>Designed and built REST APIs in Spring Boot</li>
+          <li>Implemented CRUD operations &amp; adoption workflow</li>
+          <li>Integrated MySQL with JPA / Hibernate</li>
+          <li>Developed service and repository layers</li>
+        </ul>
+        <div class="project-tags">
+          <span>REACT.JS</span><span>SPRING BOOT</span><span>MYSQL</span>
+        </div>
+        <a href="#" class="project-link">VIEW ON GITHUB <span class="arrow">↗</span></a>
+      </div>
+    </article>
+
+    <!-- Project 02 -->
+    <article class="project">
+      <div class="project-banner banner-taxi">
+         <img
+      src="C:\Users\Hp\Desktop\NNM22CS042\Portfolio\portfolio\taxi.png"
+      alt="Taxi Fare Prediction Project"
+      class="project-image"/>
+        <span class="banner-tag">02 · MACHINE LEARNING · R</span>
+        <span class="banner-arrow">↗</span>
+      </div>
+      <div class="project-body">
+        <span class="project-eyebrow">02 / PROJECT</span>
+        <h3 class="project-title">Taxi Fare Prediction</h3>
+        <p class="project-desc">
+          An ML pipeline that predicts taxi fares using regression models. Compared Linear Regression against Random Forest, visualised key features, and evaluated performance using RMSE and R² metrics.
+        </p>
+        <ul class="project-points">
+          <li>Data cleaning &amp; feature engineering</li>
+          <li>Linear Regression baseline</li>
+          <li>Random Forest with hyperparameter tuning</li>
+          <li>Data visualisation &amp; performance evaluation</li>
+        </ul>
+        <div class="project-tags">
+          <span>R</span><span>LINEAR REGRESSION</span><span>RANDOM FOREST</span>
+        </div>
+        <a href="#" class="project-link">VIEW ON GITHUB <span class="arrow">↗</span></a>
+      </div>
+    </article>
+
+    <!-- Project 03 -->
+    <article class="project">
+      <div class="project-banner banner-music">
+        <span class="banner-tag">03 · BROWSER AUDIO PLAYER</span>
+        <span class="banner-arrow">↗</span>
+      </div>
+      <div class="project-body">
+        <span class="project-eyebrow">03 / PROJECT</span>
+        <h3 class="project-title">Music Player</h3>
+        <p class="project-desc">
+          A lightweight browser music player with play/pause, progress control and playlist support. Focused on clean DOM interactions and the audio API, without frameworks.
+        </p>
+        <ul class="project-points">
+          <li>Custom audio controls</li>
+          <li>Progress &amp; seek bar</li>
+          <li>Playlist navigation</li>
+          <li>Responsive UI</li>
+        </ul>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+        </div>
+        <a href="#" class="project-link">VIEW ON GITHUB <span class="arrow">↗</span></a>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="section-head">
+      <span class="section-num">04 <span class="section-rule"></span></span>
+      <span class="section-label">EXPERIENCE</span>
+    </div>
+    <h2 class="section-title">Where I've <span class="muted">worked.</span></h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">DEC 2025 — FEB 2026</div>
+        <div class="timeline-content">
+          <h3>Web Development Intern</h3>
+          <span class="timeline-company">Codelab Systems, Mangalore</span>
+          <ul>
+            <li>Web application development</li>
+            <li>Frontend–backend integration</li>
+            <li>Database operations</li>
+            <li>Testing and debugging</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2022 — 2026</div>
+        <div class="timeline-content">
+          <h3>B.Tech, Computer Science Engineering</h3>
+          <span class="timeline-company">NMAM Institute of Technology · CGPA 8.52</span>
+          <ul>
+            <li>Final-year coursework in systems, databases &amp; software engineering</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="section-head">
+      <span class="section-num">05 <span class="section-rule"></span></span>
+      <span class="section-label">CONTACT</span>
+    </div>
+    <h2 class="section-title">Let's build<br><span class="muted">something.</span></h2>
+    <p class="contact-intro">Open to internships, full-time roles and interesting collaborations — particularly in backend engineering and Japanese tech companies.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-item">
+          <span class="info-icon">✉</span>
+          <div>
+            <span class="info-label">EMAIL</span>
+            <a href="mailto:your-email@example.com">bhushithamin51@gmail.com</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">☏</span>
+          <div>
+            <span class="info-label">PHONE</span>
+
+            <a href="tel:+91XXXXXXXXXX">+91 7892645298</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">⚲</span>
+          <div>
+            <span class="info-label">BASED IN</span>
+            <span>Mangalore, India</span>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Bhushithumeshamin" class="social-box" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/bhushith-amin/" class="social-box" aria-label="LinkedIn">in</a>
+          <a href="mailto:your-email@example.com" class="social-box" aria-label="Email">✉</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>
+          <span>NAME</span>
+          <input type="text" name="name" placeholder="Your full name" required />
+        </label>
+        <label>
+          <span>EMAIL</span>
+          <input type="email" name="email" placeholder="you@company.com" required />
+        </label>
+        <label>
+          <span>SUBJECT</span>
+          <input type="text" name="subject" placeholder="Internship / Role / Project" />
+        </label>
+        <label>
+          <span>MESSAGE</span>
+          <textarea name="message" rows="4" placeholder="Tell me about the role or project…" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-send">SEND MESSAGE <span class="arrow">↗</span></button>
+        <p class="form-note">Messages are securely stored — I review them daily.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-name">
+      <span class="footer-bold">BHUSHITH U AMIN</span>
+      <span class="footer-sub">SOFTWARE ENGINEER · MANGALORE, INDIA</span>
+    </div>
+    <div class="footer-meta">
+      <span>© 2026 — ALL RIGHTS RESERVED</span>
+      <span>DESIGNED &amp; BUILT WITH DISCIPLINE.</span>
+    </div>
+    <a href="#hero" class="back-top">↑ BACK TO TOP</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
